@@ -35,10 +35,10 @@ app.post("/", function(req, res) {
   var jsonData = JSON.stringify(data);
 
   var options = {
-    url: "https://us5.api.mailchimp.com/3.0/lists/8ac7cfee0c",
+    url: "https://",
     method: "POST",
     headers: {
-      "Authorization": "gescale1 05fa85601ffe5a8ee4fb9ee0a6c15c09-us5"
+      "Authorization": ""
     },
     body: jsonData
   };
@@ -65,7 +65,3 @@ app.post("/backToMain", function (req, res){
 app.listen(3000, function() {
   console.log("Server running on port 3000!");
 });
-
-
-// API KEY 05fa85601ffe5a8ee4fb9ee0a6c15c09-us5
-// 8ac7cfee0c
